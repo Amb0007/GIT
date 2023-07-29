@@ -28,3 +28,9 @@ git fetch   - Download object and references from another repository
 #current logs
 git log     - Show commit logs
 
+#Troubleshooting
+if you are unable to push then it maybe due to 
+remote repo has a change that is not in the local repo so for that you need to sync before push
+git fetch origin
+git merge origin/Master
+git push origin Master 
