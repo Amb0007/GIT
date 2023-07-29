@@ -1,0 +1,12 @@
+
+git add - Add file contents to the index or add new file to staged area
+git branch - list,create or delete branches
+git checkout - leave and switch to another branch(dir)
+git clone - Clone a repository into new directory
+git commit  - Record changes to the repository
+git diff    - Show changes between commits,the commit and working trees, etc
+git fetch   - Download object and references from another repository 
+git init    - Create an empty git repository or inittalize an existing one 
+git log     - Show commit logs
+git merge   - Join two or more development histories / join changes of two different branches4
+git rebase  - Combining the work between different branches
