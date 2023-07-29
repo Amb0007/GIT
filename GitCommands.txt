@@ -1,0 +1,30 @@
+git init    - Create an empty git repository or inittalize an existing one 
+
+#Setup your signature
+git config --global user.name - your name
+git config --global user.email - your email
+
+#Establish connection to remote repos github
+git remote add origin  "ur github profile url"
+git remote -v - show access repos 
+
+#Upload file local to remote 
+git remote set-url origin "ur github profile url"
+git push -u origin Master
+
+#Working dir commands
+git add - Add file contents to the index or add new file to staged area
+git commit  - Record changes to the repository
+git branch - list,create or delete branches
+git checkout - leave and switch to another branch(dir)
+git clone - Clone a repository into new directory
+git merge   - Join two or more development histories / join changes of two different branches4
+git rebase  - Combining the work between different branches
+
+#check for change within files
+git diff    - Show changes between commits,the commit and working trees, etc
+git fetch   - Download object and references from another repository 
+
+#current logs
+git log     - Show commit logs
+
